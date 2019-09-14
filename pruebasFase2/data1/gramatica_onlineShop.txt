@@ -1,0 +1,5 @@
+empty -> Bounce<0.1_infoAdministrativePages | Bounce>0.1_infoAdministrativePages | infoAdministrativePages | ProductRelatedOnWeekend
+Bounce<0.1_infoAdministrativePages-> infoAdministrativePages | BounceRates=(-inf-0.1)
+Bounce>0.1_infoAdministrativePages-> infoAdministrativePages | BounceRates=(0.1-inf)
+infoAdministrativePages -> Administrative=(-inf-13.5) | Administrative=(13.5-inf) | Informational=(-inf-12) | Informational=(12-inf)
+ProductRelatedOnWeekend-> ProductRelated=(-inf-352.5) | ProductRelated=(352.5-inf) | Weekend=TRUE

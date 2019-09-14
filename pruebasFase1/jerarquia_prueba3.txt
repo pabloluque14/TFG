@@ -1,0 +1,20 @@
+empty->carne|leche|huevos
+oferta_lecheYhuevos-> con_lactosa,huevos_corral |con_lactosa,huevos_granja |sin_lactosa,huevos_corral |sin_lactosa,huevos_granja
+oferta_carne-> pollo_corral,ternera | pollo_corral,cordero | pollo_granja,ternera | pollo_granja,cordero
+cerveza->sin_alcohol|con_alcohol|importacion|nacional
+con_alcohol->item22
+sin_alcohol->item21
+nacional->item20
+importacion->item19
+huevos->huevos_corral|huevos_granja
+huevos_corral->item18
+huevos_granja->item17
+leche->con_lactosa|sin_lactosa
+con_lactosa->item15|item16
+sin_lactosa->item13|item14
+carne->pollo|ternera|cordero
+cordero->item5|item6
+ternera->item2|item3|item4
+pollo->pollo_granja|pollo_corral
+pollo_granja->item1
+pollo_corral->item0

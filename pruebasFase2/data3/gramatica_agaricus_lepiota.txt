@@ -1,0 +1,5 @@
+empty-> habitatCapAtachment | habitat | cap_shapeB_cap_surfaceF | atachment_gill_Black
+habitatCapAtachment-> habitat,cap_shapeB_cap_surfaceF | habitat,atachment_gill_Black
+habitat-> habitat=u | habitat=w | habitat=d
+cap_shapeB_cap_surfaceF-> cap-shape=b,cap-surface=f
+atachment_gill_Black-> gill-attachment=a,gill-color=b

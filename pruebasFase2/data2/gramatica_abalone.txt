@@ -1,0 +1,6 @@
+empty -> Length | Diameter | Height | Viscera_weight
+Volumen -> Length | Height
+Length-> Length=(-inf-0.321667) | Length=(0.321667-0.568333) | Length=(0.568333-inf)
+Diameter-> Diameter=(-inf-0.253333) | Diameter=(0.253333-0.451667) | Diameter=(0.451667-inf)
+Height-> Height=(-inf-0.376667) | Height=(0.376667-0.753333) | Height=(0.753333-inf)
+Viscera_weight-> Viscera_weight=(-inf-0.253667) | Viscera_weight=(0.253667-0.506833) | Viscera_weight=(0.506833-inf)
